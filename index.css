@@ -5,7 +5,7 @@ body {background-color: rgb(26, 26, 26);}
 .centre {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -14,7 +14,8 @@ body {background-color: rgb(26, 26, 26);}
 
 .links {
     font-family: "Nunito",sans-serif;
-    align-items: center;
+    justify-content:center;
+    position: relative;
     color: white;
     text-decoration: none;
 }
@@ -36,7 +37,7 @@ li, a {
     color: white;
 }
 
-i {
+object,i {
     padding-right: 5px;
 }
 a:hover {
